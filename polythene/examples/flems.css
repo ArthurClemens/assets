@@ -1,0 +1,40 @@
+body {
+  margin: 0
+}
+.row {
+  padding: 16px;
+  background: #eceff1;
+}
+.row + .row {
+  border-top: 1px solid #e0e0e0;
+}
+.row + .row.pe-dark-tone {
+  border-top: none;
+}
+.row.pe-dark-tone + .row.pe-dark-tone {
+  border-top: 1px solid #555;
+}
+.row.pe-dark-tone {
+  background: #333;
+}
+.row.title {
+  color: #333;
+}
+.row.pe-dark-tone .title {
+  color: #fff;
+}
+.row.note {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.row.note a:link,
+.row.note a:visited {
+  text-decoration: none;
+  color: #0366d6;
+}
+.component {
+  margin: 2rem 0;
+}
+.row .pe-button.pe-text-button {
+  margin: 6px 8px;
+}
